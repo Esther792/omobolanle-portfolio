@@ -1,0 +1,2 @@
+import type { MetadataRoute } from 'next';
+export default function sitemap(): MetadataRoute.Sitemap { return ['','/case-studies/idsr-outbreak-preparedness-bayelsa','/case-studies/measles-rubella-lagos','/case-studies/avadar-afp-kwara','/analytics/public-health-surveillance','/analytics/hospital-admissions','/analytics/breast-cancer-tableau','/analytics/emerald-properties-conversion'].map(path => ({ url: `https://omobolanleadelekun.com${path}`, lastModified: new Date() })); }
