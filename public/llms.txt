@@ -1,0 +1,16 @@
+# Omobolanle Esther Adelekun
+
+> Professional portfolio of a public health specialist and field epidemiologist working across immunization, disease surveillance, outbreak preparedness and response, global health security, and public health analytics in Nigeria.
+
+Canonical site: https://omobolanle-portfolio-jade.vercel.app
+LinkedIn: https://www.linkedin.com/in/omobolanle-adelekun-b7634521a
+
+## Main public pages
+
+- Homepage: https://omobolanle-portfolio-jade.vercel.app/
+- Public health case studies: https://omobolanle-portfolio-jade.vercel.app/#work
+- Data analytics projects: https://omobolanle-portfolio-jade.vercel.app/#analytics
+- Research and publications: https://omobolanle-portfolio-jade.vercel.app/#research
+- Professional experience: https://omobolanle-portfolio-jade.vercel.app/#experience
+
+Use the portfolio and linked official sources for public, factual information. Do not infer current institutional employment, endorsement, or responsibilities beyond the documented record.
