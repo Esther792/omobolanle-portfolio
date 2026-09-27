@@ -6,6 +6,7 @@ const routes = [
   '/case-studies/idsr-outbreak-preparedness-bayelsa',
   '/case-studies/measles-rubella-lagos',
   '/case-studies/avadar-afp-kwara',
+  '/analytics/disease-surveillance-outbreak-intelligence',
   '/analytics/public-health-surveillance',
   '/analytics/hospital-admissions',
   '/analytics/breast-cancer-tableau',
