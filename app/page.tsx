@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { HomepageImage as Image } from './homepage-image';
 import { AnalyticsFeature } from './analytics-feature';
 import { siteProfile } from './site-data';
 import { JsonLd } from './json-ld';
