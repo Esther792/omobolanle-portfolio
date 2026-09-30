@@ -80,7 +80,7 @@ export default function ConsultingPage() {
 
       <aside className="consultingAvailability" aria-label="Availability"><span>Availability</span><p>Based in Nigeria. Available for in-country, regional, international and remote technical assignments.</p></aside>
 
-      <section className="consultingContact" id="consulting-contact" aria-labelledby="consulting-contact-title"><div><p className="eyebrow">Let’s connect</p><h2 id="consulting-contact-title">Let’s discuss your assignment.</h2><p>For consulting assignments, professional opportunities, research collaborations, training and other public health enquiries.</p><a className="consultingEmail" href="mailto:estheradelekun102@gmail.com?subject=Professional%20Enquiry">estheradelekun102@gmail.com <span aria-hidden="true">↗</span></a></div></section>
+      <section className="consultingContact" id="consulting-contact" aria-labelledby="consulting-contact-title"><div><p className="eyebrow">Let’s connect</p><h2 id="consulting-contact-title">Let’s discuss your assignment.</h2><p>For consulting assignments, professional opportunities, research collaborations, training and other public health enquiries.</p><a className="consultingEmail" href="mailto:estheradelekun102@gmail.com">estheradelekun102@gmail.com <span aria-hidden="true">↗</span></a></div></section>
     </main>
     <footer><a className="brand" href="/"><span>OA</span><b>Omobolanle Adelekun</b></a><p style={{textWrap:'balance'}}>{sitePositioning}</p><p>© 2026 Omobolanle Esther Adelekun</p></footer>
   </>;
