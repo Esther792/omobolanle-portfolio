@@ -3,6 +3,7 @@ import { absoluteUrl } from './site-config';
 
 const routes = [
   '/',
+  '/public-health-consultant-nigeria',
   '/case-studies/idsr-outbreak-preparedness-bayelsa',
   '/case-studies/measles-rubella-lagos',
   '/case-studies/avadar-afp-kwara',
@@ -16,7 +17,7 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((path) => ({
     url: absoluteUrl(path),
-    lastModified: new Date('2026-08-25'),
+    lastModified: new Date(path === '/' || path === '/public-health-consultant-nigeria' ? '2026-09-30' : '2026-08-25'),
     changeFrequency: path === '/' ? 'monthly' : 'yearly',
     priority: path === '/' ? 1 : 0.7,
   }));

@@ -6,7 +6,8 @@ import '../../analytics-intelligence.css';
 const title='Disease Surveillance & Outbreak Intelligence';
 const description='An independent analytical case study using simulated surveillance data to assess quality, detect unusual disease signals and prioritize public-health investigation.';
 const path='/analytics/disease-surveillance-outbreak-intelligence';
-export const metadata:Metadata={title,description,alternates:{canonical:path},openGraph:{title,description,url:path,type:'article',images:[]},twitter:{title,description,card:'summary',images:[]}};
+const socialImage = '/images/social/disease-surveillance-outbreak-intelligence.png';
+export const metadata:Metadata={title,description,alternates:{canonical:path},openGraph:{title,description,url:path,type:'article',images:[{url:socialImage,width:1200,height:630,alt:`${title} — Omobolanle Esther Adelekun`}]},twitter:{title,description,card:'summary_large_image',images:[socialImage]}};
 
 function Trend(){const x=(week:number)=>(week-.5)*30;const y=(value:number)=>250-value*5;const line=weekly.filter(row=>row[4]!==null).map(([week,,,,threshold])=>`${x(week)},${y(threshold!)}`).join(' ');return <figure className="intelligenceTrend">
   <div className="intelligenceLegend"><span><i className="caseKey"/>Weekly cases</span><span><i className="thresholdKey"/>Rolling signal threshold</span></div>

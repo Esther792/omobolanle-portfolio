@@ -40,7 +40,19 @@ const localBindingConfig = {
 export default defineConfig(async () => {
   if (isVercelBuild) {
     return {
-      plugins: [tailwindcss(), vinext(), nitro()],
+      plugins: [tailwindcss(), vinext(), nitro({
+        routeRules: {
+          '/**': {
+            headers: {
+              'X-Content-Type-Options': 'nosniff',
+              'X-Frame-Options': 'SAMEORIGIN',
+              'Referrer-Policy': 'strict-origin-when-cross-origin',
+              'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
+              'Content-Security-Policy': "object-src 'none'; base-uri 'self'; frame-ancestors 'self'",
+            },
+          },
+        },
+      })],
     };
   }
 
