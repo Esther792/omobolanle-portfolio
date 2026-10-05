@@ -42,6 +42,9 @@ export default defineConfig(async () => {
     return {
       plugins: [tailwindcss(), vinext(), nitro({
         routeRules: {
+          '/files/Omobolanle-Adelekun-CV.pdf': {
+            headers: { 'X-Robots-Tag': 'noindex' },
+          },
           '/**': {
             headers: {
               'X-Content-Type-Options': 'nosniff',
